@@ -121,16 +121,6 @@ Key observations:
 * LSTM captures nonlinear temporal dynamics
 * CSINDy revealed that the ERA5 domain does not behave as one uniform microclimate system over the selected grids in this project.
 
-## Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/twinnerhenock/Data-Driven-Discovery-of-micro-climate-dynamics.git
-cd Data-Driven-Discovery-of-micro-climate-dynamics
-
-pip install -r requirements.txt
-
 ## Limitations
 SINDy model is sensitive to noise and preprocessing
 LSTM lacks physical interpretability
@@ -142,7 +132,17 @@ Try CONVLSTM in the Comparative Study
 Incorporate spatial coupling (multi-grid dynamics)
 Hybrid models (physics + neural networks)
 Compare with PDE-based approaches
+## Installation
 
+Clone the repository:
+
+```bash
+git clone https://github.com/twinnerhenock/Data-Driven-Discovery-of-micro-climate-dynamics.git
+cd Data-Driven-Discovery-of-micro-climate-dynamics
+
+pip install -r requirements.txt
+
+```
 
 Author
 
