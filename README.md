@@ -115,11 +115,11 @@ This suggests that the main difficulty is not simply the number of clusters, but
 
 Key observations:
 
-LSTM achieves significantly better predictive accuracy
-SINDy captures physically meaningful structure
-SINDy produces smoother, lower-variance predictions
-LSTM captures nonlinear temporal dynamics
-CSINDy revealed that the ERA5 domain does not behave as one uniform microclimate system over the selected grids in this project.
+* LSTM achieves significantly better predictive accuracy
+* SINDy captures physically meaningful structure
+* SINDy produces smoother, lower-variance predictions
+* LSTM captures nonlinear temporal dynamics
+* CSINDy revealed that the ERA5 domain does not behave as one uniform microclimate system over the selected grids in this project.
 
 ## Installation
 
