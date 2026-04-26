@@ -1,0 +1,6 @@
+This project uses ERA5 reanalysis data for New York City, extracted over a spatial grid of 45 points covering the region. 
+The dataset includes near-surface temperature, surface solar radiation, and wind speed, sampled hourly. 
+Data was downloaded for two distinct periods: June–August (used for model training and equation discovery) and 
+September (used exclusively for out-of-sample validation). The selected domain exhibits mixed microclimate regimes, 
+including coastal and inland dynamics, which introduces variability in temperature behavior and challenges for modeling. 
+This heterogeneity is particularly relevant for evaluating both global and clustered modeling approaches such as SINDy and CSINDy.
