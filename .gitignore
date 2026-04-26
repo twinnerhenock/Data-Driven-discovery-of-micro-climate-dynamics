@@ -1,0 +1,38 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment files
+.env
+.venv/
+venv/
+env/
+
+# Data files
+data/
+*.csv
+*.nc
+*.grib
+*.grb
+*.h5
+*.hdf5
+*.zip
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# Outputs
+outputs/
+results/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
